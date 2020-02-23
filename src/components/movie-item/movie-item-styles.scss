@@ -1,0 +1,20 @@
+.movie-container {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin: 20px auto;
+
+    .movie-poster {
+        width: 80%;
+        height: 420px;
+        object-fit: cover;
+        margin: 0 auto;
+    }
+
+    .movie-title {
+        font-size: 20px;
+        padding: 0 28px;
+        text-align: left;
+        color: #eeeeee;
+    }
+}

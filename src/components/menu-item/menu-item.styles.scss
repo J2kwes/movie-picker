@@ -1,0 +1,14 @@
+.menu-item {
+    padding: 2px 15px;
+    border-radius: 40px;
+    display: flex; 
+    align-items: center;
+    &.fill {
+        background-color: rgb(121, 81, 168);
+    }
+    a {
+        padding: 10px 20px;
+        color: #eeeeee;
+        text-decoration: none;
+    }
+}
